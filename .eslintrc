@@ -1,0 +1,34 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier", "react-hooks"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "globals": {
+    "shallow": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "prettier/prettier": ["error"],
+    "arrow-parens": [2, "always"],
+    "max-len": [1],
+    "react/destructuring-assignment": [1],
+    "react/forbid-prop-types": [2, { "forbid": ["any", "object"] }],
+    "react/jsx-curly-brace-presence": "off",
+    "react/jsx-handler-names": [1],
+    "react/jsx-indent": [1],
+    "react/jsx-filename-extension": [1],
+    "react/jsx-props-no-spreading": "off",
+    "react/prefer-stateless-function": [1],
+    "react/prop-types": [1],
+    "import/no-unresolved": [2, { "ignore": [".png*", ".jpg*"] }],
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": ["**/*.test.jsx", "**/*.test.js", "next.config.js"] }
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}
