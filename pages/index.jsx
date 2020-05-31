@@ -13,18 +13,21 @@ const propTypes = {
       objectID: PropTypes.string,
     }),
   ).isRequired,
+  currentPage: PropTypes.number.isRequired,
+  totalPage: PropTypes.number.isRequired,
 };
 
-const Home = ({ hits }) => {
-  return <NewsList hits={hits} />;
+const Home = ({ hits, currentPage, totalPage }) => {
+  return <NewsList hits={hits} currentPage={currentPage} totalPage={totalPage} />;
 };
 
 Home.getInitialProps = async ({ query }) => {
   const url = 'https://hn.algolia.com/api/v1/search?query=front_page';
+  const currentPage = query.page ? parseInt(query.page, 10) : 0;
   const apiUrl = query.page ? `${url}&page=${query.page}` : url;
   const res = await fetch(apiUrl);
   const data = await res.json();
-  return { hits: data.hits };
+  return { hits: data.hits, currentPage, totalPage: data.nbPages };
 };
 
 Home.propTypes = propTypes;

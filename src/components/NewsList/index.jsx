@@ -1,5 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import PropTypes from 'prop-types';
+import Link from 'next/link';
 import s from './NewsList.module.scss';
 import NewsItem from '../NewsItem';
 
@@ -14,12 +16,14 @@ const propTypes = {
       objectID: PropTypes.string,
     }),
   ).isRequired,
+  currentPage: PropTypes.number.isRequired,
+  totalPage: PropTypes.number.isRequired,
 };
 
-const NewsList = ({ hits }) => {
+const NewsList = ({ hits, currentPage, totalPage }) => {
   return (
     <div className={s.root}>
-      <table>
+      <table className={s.table}>
         <thead className={s.head}>
           <tr>
             <th>Comments</th>
@@ -34,6 +38,23 @@ const NewsList = ({ hits }) => {
           ))}
         </tbody>
       </table>
+      <div className={s.pagination}>
+        <div className={s.paginationLinks}>
+          {currentPage !== 0 && (
+            <>
+              <Link href={`/?page=${currentPage - 1}`}>
+                <a>Previous</a>
+              </Link>
+              <span className={s.separator}> | </span>
+            </>
+          )}
+          {currentPage + 1 !== totalPage && (
+            <Link href={`/?page=${currentPage + 1}`}>
+              <a>Next</a>
+            </Link>
+          )}
+        </div>
+      </div>
     </div>
   );
 };

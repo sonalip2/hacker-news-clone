@@ -11,3 +11,32 @@
 .center {
   text-align: center;
 }
+
+.upvote {
+  cursor: pointer;
+}
+
+.by {
+  color: #828282;
+}
+
+.time {
+  color: #828282;
+}
+
+.details {
+  padding: 8px 0;
+}
+
+.hideBtnContainer {
+  color: #828282;
+}
+
+.hideBtn {
+  border: unset;
+  color: black;
+  cursor: pointer;
+  background-color: unset;
+  font-size: 10pt;
+  font-family: Verdana, Geneva, sans-serif;
+}

@@ -15,7 +15,8 @@
     "next": "9.4.4",
     "prop-types": "^15.7.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "redux": "^4.0.5"
   },
   "devDependencies": {
     "@zeit/next-css": "^1.0.1",
@@ -37,7 +38,6 @@
     "jest": "^26.0.1",
     "jest-css-modules": "^2.1.0",
     "next-compose-plugins": "^2.2.0",
-    "next-eslint": "^0.0.4",
     "node-sass": "^4.14.1",
     "prettier": "^2.0.5",
     "stylelint": "^13.5.0",

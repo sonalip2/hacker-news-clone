@@ -5,8 +5,38 @@
 
 .head {
   background-color: #ff6600;
-  color: white;
-  border-color: #ff6600;
-  border-spacing: unset;
-  border-collapse: unset;
+  color: #f6f6ef;
+}
+
+.body {
+  > tr {
+    &:nth-child(odd) {
+      background-color: #f6f6ef;
+    }
+    &:nth-child(even) {
+      background-color: #ececdf;
+    }
+  }
+}
+
+.table {
+  width: 100%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  background-color: #f6f6ef;
+  border-bottom: 5px solid #ff6600;
+}
+
+.paginationLinks {
+  span {
+    font-weight: bold;
+    color: #ff6600;
+  }
+  a {
+    color: #ff6600;
+  }
 }
