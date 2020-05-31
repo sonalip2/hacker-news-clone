@@ -1,9 +1,9 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import HelloWorldTest from './index';
+import NewsList from './index';
 
-describe('HelloWorldTest component', () => {
+describe('NewsList component', () => {
   it('Should render without crashing', () => {
-    mount(<HelloWorldTest />);
+    mount(<NewsList />);
   });
 });
