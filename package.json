@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "pretest": "npm run lint:scss && npm run lint:js",
     "lint:js": "eslint --quiet --ext .js,.jsx --ignore-path .gitignore",
     "lint:scss": "stylelint './pages/**/*.scss' './src/**/*.scss'",
