@@ -2,8 +2,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import s from './NewsList.module.scss';
 import NewsItem from '../NewsItem';
+
+const NewsVoteChart = dynamic(() => import('../NewsVoteChart'), {
+  ssr: false,
+});
 
 const propTypes = {
   hits: PropTypes.arrayOf(
@@ -55,6 +60,7 @@ const NewsList = ({ hits, currentPage, totalPage }) => {
           )}
         </div>
       </div>
+      <NewsVoteChart />
     </div>
   );
 };
