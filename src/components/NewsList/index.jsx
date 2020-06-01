@@ -34,7 +34,7 @@ const NewsList = ({ hits, currentPage, totalPage }) => {
         </thead>
         <tbody className={s.body}>
           {hits.map((hit) => (
-            <NewsItem {...hit} />
+            <NewsItem {...hit} key={hit.objectID} />
           ))}
         </tbody>
       </table>

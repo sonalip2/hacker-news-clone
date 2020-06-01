@@ -1,7 +1,9 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 import s from './NewsItem.module.scss';
+import { setVote, setHide } from '../../actions/news';
 
 const propTypes = {
   created_at: PropTypes.string.isRequired,
@@ -10,6 +12,9 @@ const propTypes = {
   author: PropTypes.string.isRequired,
   num_comments: PropTypes.number.isRequired,
   objectID: PropTypes.string.isRequired,
+  upVote: PropTypes.func.isRequired,
+  hideNews: PropTypes.func.isRequired,
+  newsDetails: PropTypes.shape({}).isRequired,
 };
 
 const defaultProps = {
@@ -23,19 +28,31 @@ const NewsItem = ({
   author,
   num_comments: numOfComments,
   objectID,
+  upVote,
+  hideNews,
+  newsDetails,
 }) => {
+  const intObjectId = parseInt(objectID, 10);
   const handleUpVote = () => {
-    console.log('objectID', objectID);
+    upVote(objectID);
   };
 
   const handleHideClick = () => {
-    console.log('objectID', objectID);
+    hideNews(objectID);
   };
+
+  if (newsDetails[intObjectId] && newsDetails[intObjectId].hide) {
+    return null;
+  }
 
   return (
     <tr>
       <td className={s.center}>{numOfComments}</td>
-      <td className={s.center}>0</td>
+      <td className={s.center}>
+        {newsDetails[intObjectId] && newsDetails[intObjectId].vote
+          ? newsDetails[intObjectId].vote
+          : 0}
+      </td>
       <td
         className={[s.center, s.upvote].join(' ')}
         tabIndex="0"
@@ -70,4 +87,14 @@ const NewsItem = ({
 
 NewsItem.propTypes = propTypes;
 NewsItem.defaultProps = defaultProps;
-export default NewsItem;
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    upVote: (id) => dispatch(setVote(id)),
+    hideNews: (id) => dispatch(setHide(id)),
+  };
+};
+
+const mapStateToProps = (state) => ({ newsDetails: state.news.newsDetails });
+
+export default connect(mapStateToProps, mapDispatchToProps)(NewsItem);
