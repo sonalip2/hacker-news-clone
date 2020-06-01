@@ -15,6 +15,7 @@
   "dependencies": {
     "canvasjs": "^1.8.3",
     "next": "9.4.4",
+    "next-compose-plugins": "^2.2.0",
     "prop-types": "^15.7.2",
     "react": "16.13.1",
     "react-charts": "^2.0.0-beta.7",
@@ -43,7 +44,6 @@
     "jest": "^26.0.1",
     "jest-css-modules": "^2.1.0",
     "jest-next-dynamic": "^1.0.1",
-    "next-compose-plugins": "^2.2.0",
     "node-sass": "^4.14.1",
     "prettier": "^2.0.5",
     "redux-mock-store": "^1.5.4",
