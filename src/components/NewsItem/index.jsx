@@ -61,7 +61,7 @@ const NewsItem = ({
         // eslint-disable-next-line
         role="button"
       >
-        ^
+        <div className={s.triangle} />
       </td>
       <td className={s.details}>
         <span>{`${title}  `}</span>
