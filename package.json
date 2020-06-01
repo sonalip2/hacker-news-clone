@@ -10,6 +10,7 @@
     "lint:js": "eslint --quiet --ext .js,.jsx --ignore-path .gitignore",
     "lint:scss": "stylelint './pages/**/*.scss' './src/**/*.scss'",
     "cov": "npm test -- --watchAll=false --coverage",
+    "heroku-postbuild": "npm run build",
     "test": "jest"
   },
   "dependencies": {
