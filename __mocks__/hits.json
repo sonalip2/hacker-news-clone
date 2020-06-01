@@ -1,0 +1,660 @@
+{
+  "hits": [
+    {
+      "created_at": "2017-03-13T12:18:31.000Z",
+      "title": "Stories that Hacker News removes from the front page",
+      "url": "http://sangaline.com/post/the-stories-that-hacker-news-removes-from-the-front-page/",
+      "author": "foob",
+      "points": 1274,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 313,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1489407511,
+      "relevancy_score": 7312,
+      "_tags": ["story", "author_foob", "story_13857086"],
+      "objectID": "13857086",
+      "_highlightResult": {
+        "title": {
+          "value": "Stories that Hacker News removes from the \u003cem\u003efront\u003c/em\u003e \u003cem\u003epage\u003c/em\u003e",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "http://sangaline.com/post/the-stories-that-hacker-news-removes-from-the-\u003cem\u003efront\u003c/em\u003e-\u003cem\u003epage\u003c/em\u003e/",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "author": { "value": "foob", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2015-07-03T00:11:19.000Z",
+      "title": "Front Page Subreddits Go Private in Response to Firing of Reddit Admin",
+      "url": "https://www.reddit.com/r/OutOfTheLoop/comments/3bxduw/why_was_riama_along_with_a_number_of_other_large/",
+      "author": "wasd",
+      "points": 963,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 592,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1435882279,
+      "relevancy_score": 6116,
+      "_tags": ["story", "author_wasd", "story_9822580"],
+      "objectID": "9822580",
+      "_highlightResult": {
+        "title": {
+          "value": "\u003cem\u003eFront\u003c/em\u003e \u003cem\u003ePage\u003c/em\u003e Subreddits Go Private in Response to Firing of Reddit Admin",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "https://www.reddit.com/r/OutOfTheLoop/comments/3bxduw/why_was_riama_along_with_a_number_of_other_large/",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": { "value": "wasd", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2011-10-07T02:16:00.000Z",
+      "title": "Hacker News Front Page Snapshot from Last Night",
+      "url": "http://hhn.domador.net/2011/10/05/23/",
+      "author": "dstein64",
+      "points": 527,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 161,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1317953760,
+      "relevancy_score": 3495,
+      "_tags": ["story", "author_dstein64", "story_3082383"],
+      "objectID": "3082383",
+      "_highlightResult": {
+        "title": {
+          "value": "Hacker News \u003cem\u003eFront\u003c/em\u003e \u003cem\u003ePage\u003c/em\u003e Snapshot from Last Night",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "http://hhn.domador.net/2011/10/05/23/",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": { "value": "dstein64", "matchLevel": "none", "matchedWords": [] },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2020-02-14T13:35:15.000Z",
+      "title": "18-year-old personal website, built with Frontpage and still updated",
+      "url": "http://www.fmboschetto.it/",
+      "author": "fbn79",
+      "points": 520,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 472,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1581687315,
+      "_tags": ["story", "author_fbn79", "story_22326339"],
+      "objectID": "22326339",
+      "_highlightResult": {
+        "title": {
+          "value": "18-year-old personal website, built with \u003cem\u003eFrontpage\u003c/em\u003e and still updated",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": { "value": "http://www.fmboschetto.it/", "matchLevel": "none", "matchedWords": [] },
+        "author": { "value": "fbn79", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2014-11-06T15:42:24.000Z",
+      "title": "The Reddit Front Page Is Not a Meritocracy",
+      "url": "http://toddwschneider.com/posts/the-reddit-front-page-is-not-a-meritocracy/",
+      "author": "lil_tee",
+      "points": 485,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 147,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1415288544,
+      "relevancy_score": 5659,
+      "_tags": ["story", "author_lil_tee", "story_8567494"],
+      "objectID": "8567494",
+      "_highlightResult": {
+        "title": {
+          "value": "The Reddit \u003cem\u003eFront\u003c/em\u003e \u003cem\u003ePage\u003c/em\u003e Is Not a Meritocracy",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "http://toddwschneider.com/posts/the-reddit-\u003cem\u003efront\u003c/em\u003e-\u003cem\u003epage\u003c/em\u003e-is-not-a-meritocracy/",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "author": { "value": "lil_tee", "matchLevel": "none", "matchedWords": [] },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2009-08-28T05:18:28.000Z",
+      "title": "Make Frontpage of Slashdot, Reddit, Hacker News == Google Disables AdSense",
+      "url": "http://www.hizook.com/page/hizookcom-frontpage-slashdot-reddit-digg-engadget-hacker-news-result-google-disables-adsense-ac",
+      "author": "beambot",
+      "points": 359,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 159,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1251436708,
+      "relevancy_score": 2017,
+      "_tags": ["story", "author_beambot", "story_790800"],
+      "objectID": "790800",
+      "_highlightResult": {
+        "title": {
+          "value": "Make \u003cem\u003eFrontpage\u003c/em\u003e of Slashdot, Reddit, Hacker News == Google Disables AdSense",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "http://www.hizook.com/\u003cem\u003epage\u003c/em\u003e/hizookcom-\u003cem\u003efrontpage\u003c/em\u003e-slashdot-reddit-digg-engadget-hacker-news-result-google-disables-adsense-ac",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "author": { "value": "beambot", "matchLevel": "none", "matchedWords": [] },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2019-02-22T19:43:49.000Z",
+      "title": "New ‘past’ link on HN front page",
+      "url": "https://news.ycombinator.com/front",
+      "author": "Y_Y",
+      "points": 350,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 174,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1550864629,
+      "relevancy_score": 8670,
+      "_tags": ["story", "author_Y_Y", "story_19228452"],
+      "objectID": "19228452",
+      "_highlightResult": {
+        "title": {
+          "value": "New ‘past’ link on HN \u003cem\u003efront\u003c/em\u003e \u003cem\u003epage\u003c/em\u003e",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "https://news.ycombinator.com/\u003cem\u003efront\u003c/em\u003e",
+          "matchLevel": "partial",
+          "fullyHighlighted": false,
+          "matchedWords": ["front"]
+        },
+        "author": { "value": "Y_Y", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2012-10-05T06:04:14.000Z",
+      "title": "Steve Jobs passed away one year ago - HN Frontpage",
+      "url": "http://www.waybackletter.com/archive/20111005.html",
+      "author": "duck",
+      "points": 338,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 97,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1349417054,
+      "relevancy_score": 4194,
+      "_tags": ["story", "author_duck", "story_4615854"],
+      "objectID": "4615854",
+      "_highlightResult": {
+        "title": {
+          "value": "Steve Jobs passed away one year ago - HN \u003cem\u003eFrontpage\u003c/em\u003e",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "http://www.waybackletter.com/archive/20111005.html",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": { "value": "duck", "matchLevel": "none", "matchedWords": [] },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2009-05-13T17:48:54.000Z",
+      "title": "HN Frontpage ranked using only votes from accounts over a year old",
+      "url": "http://news.ycombinator.com/classic",
+      "author": "pg",
+      "points": 300,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 107,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1242236934,
+      "relevancy_score": 1814,
+      "_tags": ["story", "author_pg", "story_607271"],
+      "objectID": "607271",
+      "_highlightResult": {
+        "title": {
+          "value": "HN \u003cem\u003eFrontpage\u003c/em\u003e ranked using only votes from accounts over a year old",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "http://news.ycombinator.com/classic",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": { "value": "pg", "matchLevel": "none", "matchedWords": [] },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2012-11-01T12:52:23.000Z",
+      "title": "Apple told to rewrite \"Samsung didn't copy\", post on front page until Dec 14th",
+      "url": "http://www.engadget.com/2012/11/01/apple-told-to-rewrite-samsung-did-not-copy-statement-post-it/",
+      "author": "cskau",
+      "points": 298,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 237,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1351774343,
+      "relevancy_score": 4247,
+      "_tags": ["story", "author_cskau", "story_4727201"],
+      "objectID": "4727201",
+      "_highlightResult": {
+        "title": {
+          "value": "Apple told to rewrite \"Samsung didn't copy\", post on \u003cem\u003efront\u003c/em\u003e \u003cem\u003epage\u003c/em\u003e until Dec 14th",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "http://www.engadget.com/2012/11/01/apple-told-to-rewrite-samsung-did-not-copy-statement-post-it/",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": { "value": "cskau", "matchLevel": "none", "matchedWords": [] },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2010-12-12T22:58:29.000Z",
+      "title": "The frontpage with a threshold of 100 points",
+      "url": "http://news.ycombinator.com/over?points=100",
+      "author": "pg",
+      "points": 255,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 110,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1292194709,
+      "relevancy_score": 2917,
+      "_tags": ["story", "author_pg", "story_1998376"],
+      "objectID": "1998376",
+      "_highlightResult": {
+        "title": {
+          "value": "The \u003cem\u003efrontpage\u003c/em\u003e with a threshold of 100 points",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "http://news.ycombinator.com/over?points=100",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": { "value": "pg", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2013-09-27T04:39:00.000Z",
+      "title": "Born of Reddit, Imgur now dwarfs the front page of the Internet",
+      "url": "http://venturebeat.com/2013/09/26/imgur-traffic-milestone-100m-uniques/",
+      "author": "r0h1n",
+      "points": 251,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 138,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1380256740,
+      "relevancy_score": 4879,
+      "_tags": ["story", "author_r0h1n", "story_6455269"],
+      "objectID": "6455269",
+      "_highlightResult": {
+        "title": {
+          "value": "Born of Reddit, Imgur now dwarfs the \u003cem\u003efront\u003c/em\u003e \u003cem\u003epage\u003c/em\u003e of the Internet",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "http://venturebeat.com/2013/09/26/imgur-traffic-milestone-100m-uniques/",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": { "value": "r0h1n", "matchLevel": "none", "matchedWords": [] },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2018-09-12T06:43:06.000Z",
+      "title": "FrontPage 98: Elegant and Exquisite (1997)",
+      "url": "http://www.telecommander.com/pics/links/application%20software/microsoft/Frontpg98/FrontPage%2098%20Elegant%20\u0026%20Exquisite.htm",
+      "author": "soheilpro",
+      "points": 234,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 211,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1536734586,
+      "relevancy_score": 8360,
+      "_tags": ["story", "author_soheilpro", "story_17966077"],
+      "objectID": "17966077",
+      "_highlightResult": {
+        "title": {
+          "value": "\u003cem\u003eFrontPage\u003c/em\u003e 98: Elegant and Exquisite (1997)",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "http://www.telecommander.com/pics/links/application%20software/microsoft/Frontpg98/\u003cem\u003eFrontPage\u003c/em\u003e%2098%20Elegant%20\u0026%20Exquisite.htm",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "author": { "value": "soheilpro", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2017-04-24T06:24:03.000Z",
+      "title": "A faster BBC News front page",
+      "url": "https://wildlyinaccurate.com/introducing-a-faster-bbc-news-front-page/",
+      "author": "cpeterso",
+      "points": 234,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 125,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1493015043,
+      "relevancy_score": 7392,
+      "_tags": ["story", "author_cpeterso", "story_14182296"],
+      "objectID": "14182296",
+      "_highlightResult": {
+        "title": {
+          "value": "A faster BBC News \u003cem\u003efront\u003c/em\u003e \u003cem\u003epage\u003c/em\u003e",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "https://wildlyinaccurate.com/introducing-a-faster-bbc-news-\u003cem\u003efront\u003c/em\u003e-\u003cem\u003epage\u003c/em\u003e/",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "author": { "value": "cpeterso", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2014-04-01T08:23:16.000Z",
+      "title": "Challenge HN: Keep lame April Fools' gags off the front page",
+      "url": "",
+      "author": "dang",
+      "points": 228,
+      "story_text": "(I\u0026#x27;m going to rewrite this, because people have made some good points in the thread.)\u003cp\u003eMost April Fools\u0026#x27; gags in tech are lame. Only the very best ones, such as those that show hackery ingenuity, deserve much attention on HN. I propose that we, or rather you, flag the others off the front page.\u003cp\u003eAfter plodding through them much of March 31 (where I am), I realized I was dreading the next 24 hours of having to read so many lame stories and decide which are real. Then I thought it might turn into a positive if I appealed to you all instead. This is a plea! You don\u0026#x27;t have to do it, but in my view it will help.\u003cp\u003eA word about humorlessness, since it\u0026#x27;s bound to come up. People who complain about HN\u0026#x27;s humorlessness have a point, but not because we\u0026#x27;re against humor. We like laughing as much as anyone. It\u0026#x27;s because empirically, a culture of humor means a flood of lame humor, and HN\u0026#x27;s goal is to optimize for signal\u0026#x2F;noise ratio. As with any optimization, there are inevitably tradeoffs.",
+      "comment_text": null,
+      "num_comments": 97,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1396340596,
+      "relevancy_score": 5242,
+      "_tags": ["story", "author_dang", "story_7506793"],
+      "objectID": "7506793",
+      "_highlightResult": {
+        "title": {
+          "value": "Challenge HN: Keep lame April Fools' gags off the \u003cem\u003efront\u003c/em\u003e \u003cem\u003epage\u003c/em\u003e",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": { "value": "", "matchLevel": "none", "matchedWords": [] },
+        "author": { "value": "dang", "matchLevel": "none", "matchedWords": [] },
+        "story_text": {
+          "value": "(I'm going to rewrite this, because people have made some good points in the thread.)\u003cp\u003eMost April Fools' gags in tech are lame. Only the very best ones, such as those that show hackery ingenuity, deserve much attention on HN. I propose that we, or rather you, flag the others off the \u003cem\u003efront\u003c/em\u003e \u003cem\u003epage\u003c/em\u003e.\u003cp\u003eAfter plodding through them much of March 31 (where I am), I realized I was dreading the next 24 hours of having to read so many lame stories and decide which are real. Then I thought it might turn into a positive if I appealed to you all instead. This is a plea! You don't have to do it, but in my view it will help.\u003cp\u003eA word about humorlessness, since it's bound to come up. People who complain about HN's humorlessness have a point, but not because we're against humor. We like laughing as much as anyone. It's because empirically, a culture of humor means a flood of lame humor, and HN's goal is to optimize for signal/noise ratio. As with any optimization, there are inevitably tradeoffs.",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        }
+      }
+    },
+    {
+      "created_at": "2016-04-17T15:11:04.000Z",
+      "title": "When to post to Hacker News and how many points to make it to the front page",
+      "url": "http://readcodelearn.com/notes/when-to-post-to-hn.html",
+      "author": "readcodelearn",
+      "points": 197,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 61,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1460905864,
+      "relevancy_score": 6666,
+      "_tags": ["story", "author_readcodelearn", "story_11514753"],
+      "objectID": "11514753",
+      "_highlightResult": {
+        "title": {
+          "value": "When to post to Hacker News and how many points to make it to the \u003cem\u003efront\u003c/em\u003e \u003cem\u003epage\u003c/em\u003e",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "http://readcodelearn.com/notes/when-to-post-to-hn.html",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": { "value": "readcodelearn", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2012-01-28T16:49:23.000Z",
+      "title": "Paulo Coelho advertises on Pirate Bay front page ",
+      "url": "http://paulocoelhoblog.com/2012/01/28/promo-bay/",
+      "author": "rafamvc",
+      "points": 192,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 36,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1327769363,
+      "relevancy_score": 3709,
+      "_tags": ["story", "author_rafamvc", "story_3522489"],
+      "objectID": "3522489",
+      "_highlightResult": {
+        "title": {
+          "value": "Paulo Coelho advertises on Pirate Bay \u003cem\u003efront\u003c/em\u003e \u003cem\u003epage\u003c/em\u003e ",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "http://paulocoelhoblog.com/2012/01/28/promo-bay/",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": { "value": "rafamvc", "matchLevel": "none", "matchedWords": [] },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2019-10-21T03:41:37.000Z",
+      "title": "Australia Newspapers Redact Front Pages in Media-Freedom Protest",
+      "url": "https://www.bloomberg.com/news/articles/2019-10-20/australia-newspapers-redact-front-pages-in-media-freedom-protest",
+      "author": "soroushjp",
+      "points": 190,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 59,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1571629297,
+      "_tags": ["story", "author_soroushjp", "story_21309174"],
+      "objectID": "21309174",
+      "_highlightResult": {
+        "title": {
+          "value": "Australia Newspapers Redact \u003cem\u003eFront\u003c/em\u003e \u003cem\u003ePage\u003c/em\u003es in Media-Freedom Protest",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "https://www.bloomberg.com/news/articles/2019-10-20/australia-newspapers-redact-\u003cem\u003efront\u003c/em\u003e-\u003cem\u003epage\u003c/em\u003es-in-media-freedom-protest",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "author": { "value": "soroushjp", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2017-07-30T17:09:31.000Z",
+      "title": "Building a startup in public: from first line of code to frontpage of Reddit",
+      "url": "https://levels.io/hoodmaps/",
+      "author": "dwynings",
+      "points": 182,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 22,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1501434571,
+      "relevancy_score": 7567,
+      "_tags": ["story", "author_dwynings", "story_14886848"],
+      "objectID": "14886848",
+      "_highlightResult": {
+        "title": {
+          "value": "Building a startup in public: from first line of code to \u003cem\u003efrontpage\u003c/em\u003e of Reddit",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": { "value": "https://levels.io/hoodmaps/", "matchLevel": "none", "matchedWords": [] },
+        "author": { "value": "dwynings", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2011-01-13T00:45:39.000Z",
+      "title": "A Comfy Helvetica frontpage for Hacker News",
+      "url": "http://comfy-helvetica.jottit.com/",
+      "author": "godDLL",
+      "points": 176,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 89,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1294879539,
+      "relevancy_score": 2984,
+      "_tags": ["story", "author_godDLL", "story_2098340"],
+      "objectID": "2098340",
+      "_highlightResult": {
+        "title": {
+          "value": "A Comfy Helvetica \u003cem\u003efrontpage\u003c/em\u003e for Hacker News",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["front", "page"]
+        },
+        "url": {
+          "value": "http://comfy-helvetica.jottit.com/",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": { "value": "godDLL", "matchLevel": "none", "matchedWords": [] },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    }
+  ],
+  "nbHits": 53620,
+  "page": 0,
+  "nbPages": 50,
+  "hitsPerPage": 20,
+  "exhaustiveNbHits": false,
+  "query": "front_page",
+  "params": "advancedSyntax=true\u0026analytics=true\u0026analyticsTags=backend\u0026query=front_page",
+  "processingTimeMS": 22
+}

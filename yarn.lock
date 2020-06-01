@@ -2225,6 +2225,13 @@ babel-plugin-transform-define@2.0.0:
     lodash "^4.17.11"
     traverse "0.6.6"
 
+babel-plugin-transform-dynamic-import@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-dynamic-import/-/babel-plugin-transform-dynamic-import-2.1.0.tgz#3ce618dd983c072b6e2135f527d46092fb45d80e"
+  integrity sha512-ja4NWc37+7bV6/uJKCERJEGHEyK1DXgXp8teHvjKC4Jsj3Ib484dJdamFIBtSb40JFniyWZo6ML46usVvfdsSg==
+  dependencies:
+    "@babel/plugin-syntax-dynamic-import" "^7.0.0"
+
 babel-plugin-transform-export-extensions@^6.22.0:
   version "6.22.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-export-extensions/-/babel-plugin-transform-export-extensions-6.22.0.tgz#53738b47e75e8218589eea946cbbd39109bbe653"
@@ -5851,6 +5858,11 @@ jest-mock@^26.0.1:
   dependencies:
     "@jest/types" "^26.0.1"
 
+jest-next-dynamic@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/jest-next-dynamic/-/jest-next-dynamic-1.0.1.tgz#b8af62babeda3cff0cf0a6e0af6de3a9dfc8d6cd"
+  integrity sha512-peo9yRvUn8u6PZro9AzzjxpgUc+1NZhZMan+1xzk7Bz1vA0d5IC2Iw8E7bkC2cwl9AG3XxTaqPVAXbC3aMbVkw==
+
 jest-pnp-resolver@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/jest-pnp-resolver/-/jest-pnp-resolver-1.2.1.tgz#ecdae604c077a7fbc70defb6d517c3c1c898923a"
@@ -6330,6 +6342,11 @@ lodash.isequal@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
   integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
+
+lodash.isplainobject@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
+  integrity sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs=
 
 lodash.memoize@^4.1.2:
   version "4.1.2"
@@ -8425,6 +8442,13 @@ redent@^3.0.0:
   dependencies:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
+
+redux-mock-store@^1.5.4:
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/redux-mock-store/-/redux-mock-store-1.5.4.tgz#90d02495fd918ddbaa96b83aef626287c9ab5872"
+  integrity sha512-xmcA0O/tjCLXhh9Fuiq6pMrJCwFRaouA8436zcikdIpYWWCjU76CRk+i2bHx8EeiSiMGnB85/lZdU3wIJVXHTA==
+  dependencies:
+    lodash.isplainobject "^4.0.6"
 
 redux@^4.0.5:
   version "4.0.5"

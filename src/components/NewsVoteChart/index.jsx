@@ -8,7 +8,7 @@ const propTypes = {
   newsDetails: PropTypes.shape({}).isRequired,
 };
 
-const LineChart = ({ newsDetails }) => {
+const NewsVoteChart = ({ newsDetails }) => {
   const chartData = useMemo(
     () =>
       Object.keys(newsDetails).map((voteChart) => {
@@ -57,7 +57,7 @@ const LineChart = ({ newsDetails }) => {
   );
 };
 
-LineChart.propTypes = propTypes;
+NewsVoteChart.propTypes = propTypes;
 
 const mapStateToProps = (state) => ({ newsDetails: state.news.newsDetails });
-export default connect(mapStateToProps, null)(LineChart);
+export default connect(mapStateToProps, null)(NewsVoteChart);

@@ -25,45 +25,43 @@ const propTypes = {
   totalPage: PropTypes.number.isRequired,
 };
 
-const NewsList = ({ hits, currentPage, totalPage }) => {
-  return (
-    <div className={s.root}>
-      <table className={s.table}>
-        <thead className={s.head}>
-          <tr>
-            <th>Comments</th>
-            <th>Vote Count</th>
-            <th>UpVote</th>
-            <th>News Details</th>
-          </tr>
-        </thead>
-        <tbody className={s.body}>
-          {hits.map((hit) => (
-            <NewsItem {...hit} key={hit.objectID} />
-          ))}
-        </tbody>
-      </table>
-      <div className={s.pagination}>
-        <div className={s.paginationLinks}>
-          {currentPage !== 0 && (
-            <>
-              <Link href={`/?page=${currentPage - 1}`}>
-                <a>Previous</a>
-              </Link>
-              <span className={s.separator}> | </span>
-            </>
-          )}
-          {currentPage + 1 !== totalPage && (
-            <Link href={`/?page=${currentPage + 1}`}>
-              <a>Next</a>
+const NewsList = ({ hits, currentPage, totalPage }) => (
+  <div className={s.root}>
+    <table className={s.table}>
+      <thead className={s.head}>
+        <tr>
+          <th>Comments</th>
+          <th>Vote Count</th>
+          <th>UpVote</th>
+          <th>News Details</th>
+        </tr>
+      </thead>
+      <tbody className={s.body}>
+        {hits.map((hit) => (
+          <NewsItem {...hit} key={hit.objectID} />
+        ))}
+      </tbody>
+    </table>
+    <div className={s.pagination}>
+      <div className={s.paginationLinks}>
+        {currentPage !== 0 && (
+          <>
+            <Link href={`/?page=${currentPage - 1}`}>
+              <a>Previous</a>
             </Link>
-          )}
-        </div>
+            <span className={s.separator}> | </span>
+          </>
+        )}
+        {currentPage + 1 !== totalPage && (
+          <Link href={`/?page=${currentPage + 1}`}>
+            <a>Next</a>
+          </Link>
+        )}
       </div>
-      <NewsVoteChart />
     </div>
-  );
-};
+    <NewsVoteChart />
+  </div>
+);
 
 NewsList.propTypes = propTypes;
 export default NewsList;
