@@ -13,6 +13,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
     "canvasjs": "^1.8.3",
     "next": "9.4.4",
     "next-compose-plugins": "^2.2.0",
@@ -24,8 +26,6 @@
     "redux": "^4.0.5"
   },
   "devDependencies": {
-    "@zeit/next-css": "^1.0.1",
-    "@zeit/next-sass": "^1.0.1",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.0.1",
     "babel-plugin-transform-dynamic-import": "^2.1.0",
